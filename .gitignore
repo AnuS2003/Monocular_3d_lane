@@ -1,39 +1,7 @@
-# Node.js dependencies
-frontend/node_modules/
-
-
-# Build files
-frontend/build/
-frontend/.next/
-
-
-# Logs and cache
-*.cache
-*.pyc
-
-
-
-# Logs
-logs
+backend/venv/
+backend/app/__pycache__/
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+backend/app/models/
+backend/venv/Lib/site-packages/torch/lib/*.dll
+backend/venv/Lib/site-packages/torch/lib/*.lib
+backend/test/
