@@ -12,6 +12,7 @@ To use the models, download them from the provided Jupyter notebook:
 
 - **Lane Detection Model**
 - **3D Lane Reconstruction Model**
+  
 Once downloaded, place the model files in the appropriate `backend/app/models/` directory to ensure the backend can load and use them during inference.
 ### Frontend (React)
 
@@ -57,3 +58,8 @@ Once downloaded, place the model files in the appropriate `backend/app/models/` 
     /node_modules
     package.json        # Frontend dependencies
     vite.config.js      # Vite configuration for React build
+    eslint.config.js
+    index.html
+    package-lock.json
+    postcss.config.js
+    tailwind.cinfig.js
